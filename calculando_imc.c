@@ -2,7 +2,7 @@
 
     int main () {
 
-        //Declarando vari�veis
+        //Declarando variáveis
 
         float massa, altura, imc;
 
@@ -18,15 +18,15 @@
         imc= massa/(altura*altura);
 
         if (imc<18.0){
-                printf("voce mora na cracolandia filho da puta\n");
+                printf("seu imc é abaixo do normal\n");
         }
         else if (imc<25.0){
-                printf("voce e um ser desprezivel de normal\n");
+                printf("seu imc é considerado normal\n");
         }
         else if (imc<35.0){
-                printf("voce esta parecendo um blastoise");
+                printf("seu imc é de uma pessoa sobrepreso");
         }
         else {
-                printf("vai tomar no cu seu gordo fdp, vai perder banha porra");
+                printf("seu imc é de uma pessoa obesa");
         }
     return 0;}
